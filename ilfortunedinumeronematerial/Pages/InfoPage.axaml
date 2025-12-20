@@ -1,0 +1,19 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:pages="clr-namespace:ilfortunedinumeronematerial.Pages"
+             x:Class="ilfortunedinumeronematerial.Pages.InfoPage"
+			 x:DataType="pages:HomePage">
+	<StackPanel>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">ⓒ Giulio Sorrentino 2025, tutti i diritti riservati</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" >Version 4.0 basato on avalonia 11.3.10</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Un semplice fortune teller per Windows, Android e GNU/Linux.</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Questa app è sotto MIT</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Le frasi sono prese dalla base di dati presente su http://numeronesoft.ddns.net:8080</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Puoi provare a dire nel microfono 'Leggimi un cookie' oppure 'Condividi un cookie sull'internet semantico della mia dolce metà'.</TextBlock>
+		<Button Click="OnSito_Click" >More informations</Button>
+	</StackPanel>
+</UserControl>
+	

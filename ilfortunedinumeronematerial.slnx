@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="ilfortunedinumeronematerial.Android/ilfortunedinumeronematerial.Android.csproj" />
+  <Project Path="ilfortunedinumeronematerial.Browser/ilfortunedinumeronematerial.Browser.csproj" />
+  <Project Path="ilfortunedinumeronematerial.Desktop/ilfortunedinumeronematerial.Desktop.csproj" />
+  <Project Path="ilfortunedinumeronematerial.iOS/ilfortunedinumeronematerial.iOS.csproj" />
+  <Project Path="ilfortunedinumeronematerial/ilfortunedinumeronematerial.csproj" />
+</Solution>
