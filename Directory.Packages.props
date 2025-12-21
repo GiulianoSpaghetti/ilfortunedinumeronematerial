@@ -15,9 +15,26 @@
     <PackageVersion Include="Avalonia.Browser" Version="11.3.10" />
     <PackageVersion Include="Avalonia.Android" Version="11.3.10" />
     <PackageVersion Include="DialogHost.Avalonia" Version="0.10.2" />
+    <PackageVersion Include="HarfBuzzSharp" Version="8.3.1.2" />
+    <PackageVersion Include="HarfBuzzSharp.NativeAssets.Linux" Version="8.3.1.2" />
+    <PackageVersion Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="8.3.1.2" />
     <PackageVersion Include="Material.Avalonia" Version="3.13.4" />
     <PackageVersion Include="MySqlConnector" Version="2.5.0" />
     <PackageVersion Include="ReactiveUI.Avalonia" Version="11.3.8" />
+    <PackageVersion Include="SkiaSharp" Version="3.119.1" />
+    <PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="3.119.1" />
+    <PackageVersion Include="SkiaSharp.NativeAssets.WebAssembly" Version="3.119.1" />
+    <PackageVersion Include="Xamarin.AndroidX.Activity" Version="1.12.1" />
+    <PackageVersion Include="Xamarin.AndroidX.Annotation" Version="1.9.1.5" />
+    <PackageVersion Include="Xamarin.AndroidX.Annotation.Experimental" Version="1.5.1.1" />
+    <PackageVersion Include="Xamarin.AndroidX.Annotation.Jvm" Version="1.9.1.5" />
+    <PackageVersion Include="Xamarin.AndroidX.AppCompat" Version="1.7.1.1" />
+    <PackageVersion Include="Xamarin.AndroidX.Compose.Runtime.Annotation" Version="1.10.0" />
     <PackageVersion Include="Xamarin.AndroidX.Core.SplashScreen" Version="1.2.0" />
+    <PackageVersion Include="Xamarin.AndroidX.Emoji2" Version="1.6.0" />
+    <PackageVersion Include="Xamarin.AndroidX.Emoji2.ViewsHelper" Version="1.6.0" />
+    <PackageVersion Include="Xamarin.AndroidX.Fragment" Version="1.8.9" />
+    <PackageVersion Include="Xamarin.AndroidX.Lifecycle.Process" Version="2.10.0" />
+    <PackageVersion Include="Xamarin.AndroidX.Lifecycle.ViewModelSavedState" Version="2.10.0" />
   </ItemGroup>
 </Project>

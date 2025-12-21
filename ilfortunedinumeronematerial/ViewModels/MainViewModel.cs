@@ -10,7 +10,7 @@ namespace ilfortunedinumeronematerial.ViewModels;
 
 public class MainViewModel : ViewModelBase
 {
-    internal MySqlConnector.MySqlConnection conn = new("server=numeronesoft.ddns.net;user=guest;database=barzellette;port=3306");
+    internal MySqlConnector.MySqlConnection conn;
     private MySqlConnector.MySqlCommand cmd;
     private MySqlConnector.MySqlDataReader reader;
     private int max = 0;
@@ -38,6 +38,7 @@ public class MainViewModel : ViewModelBase
     {
         try
         {
+            conn = new("server=numeronesoft.ddns.net;user=guest;database=barzellette;port=3306");
             conn.Open();
             rnd = new();
             cmd = new("SELECT MAX(ID) FROM Barzellette", conn);
@@ -48,12 +49,7 @@ public class MainViewModel : ViewModelBase
             GetCookie();
             Click=ReactiveCommand.Create(GetCookie);
         }
-        catch (MySqlConnector.MySqlException ex)
-        {
-            Cookie = ex.Message;
-            Continua = false;
-        }
-        catch (SocketException ex)
+        catch (Exception ex)
         {
             Cookie = ex.Message;
             Continua = false;
@@ -72,12 +68,7 @@ public class MainViewModel : ViewModelBase
             Cookie = reader.GetString(0);
             reader.Close();
         }
-        catch (MySqlConnector.MySqlException ex)
-        {
-            Cookie = ex.Message;
-            Continua = false;
-        }
-        catch (SocketException ex)
+        catch (Exception ex)
         {
             Cookie = ex.Message;
             Continua = false;

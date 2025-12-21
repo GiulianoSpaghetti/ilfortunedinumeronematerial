@@ -11,7 +11,7 @@ public partial class InfoPage : UserControl
 {
 
     private static ILauncher? launcher = null;
-    private static readonly Uri HomePage = new Uri("https://github.cm/giulianospaghetti/ilfortunedinumeronematerial");
+    private static readonly Uri HomePage = new Uri("https://github.com/giulianospaghetti/ilfortunedinumeronematerial");
     public InfoPage()
     {
         InitializeComponent();

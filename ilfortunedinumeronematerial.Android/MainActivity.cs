@@ -7,7 +7,7 @@ using ReactiveUI.Avalonia;
 namespace ilfortunedinumeronematerial.Android;
 
 [Activity(
-    Label = "ilfortunedinumeronematerial.Android",
+    Label = "il fortune di numerone material",
     Theme = "@style/MyTheme.NoActionBar",
     Icon = "@drawable/icon",
     MainLauncher = true,

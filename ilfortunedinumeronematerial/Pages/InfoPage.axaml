@@ -8,12 +8,12 @@
 			 x:DataType="pages:HomePage">
 	<StackPanel>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">ⓒ Giulio Sorrentino 2025, tutti i diritti riservati</TextBlock>
-		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" >Version 4.0 basato on avalonia 11.3.10</TextBlock>
-		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Un semplice fortune teller per Windows, Android e GNU/Linux.</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" >Version 2.0 basato on avalonia 11.3.10</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Un semplice fortune teller per Windows, Android e GNU/Linux, in lingua italiana.</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Questa app è sotto MIT</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Le frasi sono prese dalla base di dati presente su http://numeronesoft.ddns.net:8080</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Puoi provare a dire nel microfono 'Leggimi un cookie' oppure 'Condividi un cookie sull'internet semantico della mia dolce metà'.</TextBlock>
-		<Button Click="OnSito_Click" >More informations</Button>
+		<Button Click="OnSito_Click" >Maggiori informazioni</Button>
 	</StackPanel>
 </UserControl>
 	
