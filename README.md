@@ -3,6 +3,7 @@
 Il fortune teller che parla italiano
 
 :it: La prima incarnazione seria di un fortune teller in lingua non americana in dialetto material.
+
 Il primo prodotto commerciale pubblicato per android che usa il dialetto material.
 
 
