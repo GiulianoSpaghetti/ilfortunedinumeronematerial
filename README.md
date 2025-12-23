@@ -30,7 +30,9 @@ Il server è stato ispezionato dalla FIMI e non presenta particolari problemi, p
 ## Le eccezioni in Avalonia
 
 Su android le eccezioni di Avalonia sono proprietarie e personalmente ho visto che loro fanno una grossa exception a la java invece di intercettarle tutte quante una per una e gestirle correttamente.
+
 Questo rallenta notevolmente l'esecuzione del programma, ed io mi sono dovuto adattare perché la quantità dei dispositivi è talmente varia che ognuno lancia una eccezione diversa.
+
 Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va in crash, per cui il programma non rallenta tantissimo.
 
 ## Come scaricare
@@ -58,4 +60,5 @@ https://numerone.altervista.org/donazioni.php
 
 ## Note
 Se in seguito ad aggiornamenti non installati i client dotnet riprendono a fare shock sulle ventole, provate a disinstallare il pacchetto, aggiornare all'ultimo framework e reinstallare.
-Il software è sotto MIT, potete trarne ispirazione e potete studiarlo, ma non potete diffondere il prodotto completo come vostro, sopratutto dietro pagamento.
+
+# Il software è sotto MIT, potete trarne ispirazione e potete studiarlo, ma non potete diffondere il prodotto completo come vostro, sopratutto dietro pagamento.
