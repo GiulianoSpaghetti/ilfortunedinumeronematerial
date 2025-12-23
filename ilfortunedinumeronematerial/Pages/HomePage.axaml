@@ -9,7 +9,7 @@
 			 x:DataType="pages:HomePage">
 <StackPanel>
 		<TextBox TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false" Text="{Binding Cookie}"/>
-		<Button Content="Ottieni un nuovo biscotto" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding Click}" IsEnabled="{Binding Continua}"/>
+		<Button Content="Ottieni un nuovo Biscotto" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding Click}" IsEnabled="{Binding Continua}"/>
 		<TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Message}"/>
 </StackPanel>
 </UserControl>

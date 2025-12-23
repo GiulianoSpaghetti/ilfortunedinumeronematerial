@@ -20,7 +20,7 @@ public class MainViewModel : ViewModelBase
     private bool _continua = true;
     public String Message
     {
-        get => $"Per ottenere un doppione cliccare sul pulsante \"Nuovo Cookie\" per {max} volte.";
+        get => $"Per ottenere un doppione cliccare sul pulsante \"Ottieni un nuovo Biscotto\" per {max} volte.";
     }
     public string Cookie
     {
