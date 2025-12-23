@@ -25,7 +25,10 @@ Il server è stato ispezionato dalla FIMI e non presenta particolari problemi, p
 ## Video dimostrativi
 
 [Per android](https://youtu.be/5f9GKY1Yyt4)
+
 [Per debian](https://youtu.be/DeC4SAB-fxQ)
+
+[La ricompilazione per windows perché c'ho famiglia ed è natale](https://www.youtube.com/live/1-IanNniDUg?si=qDxlP9H8P5rxK_cO)
 
 ## Le eccezioni in Avalonia
 
