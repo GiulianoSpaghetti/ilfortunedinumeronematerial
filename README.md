@@ -22,6 +22,17 @@ Io me le sono conservate con lo specifico intento di creare il fortune coi cooki
 E' liberamente accessibile all'indirizzo numeronesoft.ddns.net porta 3306, con attualmente 1000 massime, è mariadb.
 Il server è stato ispezionato dalla FIMI e non presenta particolari problemi, per cui potete realizzare il vostro fortune personale, connettendovi con le librerie mysql in qualsiasi linguaggio vogliate, basta usare come user guest e come password nessuna.
 
+## Video dimostrativi
+
+[Per android](https://youtu.be/5f9GKY1Yyt4)
+[Per debian](https://youtu.be/DeC4SAB-fxQ)
+
+## Le eccezioni in Avalonia
+
+Su android le eccezioni di Avalonia sono proprietarie e personalmente ho visto che loro fanno una grossa exception a la java invece di intercettarle tutte quante una per una e gestirle correttamente.
+Questo rallenta notevolmente l'esecuzione del programma, ed io mi sono dovuto adattare perché la quantità dei dispositivi è talmente varia che ognuno lancia una eccezione diversa.
+Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va in crash, per cui il programma non rallenta tantissimo.
+
 ## Come scaricare
 
 ## Per android
@@ -46,4 +57,5 @@ https://learn.microsoft.com/it-it/linux/packages
 https://numerone.altervista.org/donazioni.php
 
 ## Note
-Se in seguito ad aggiornamenti non installati i client dotnet riprendono a fare shock sulle ventole, provate a disinstallare il pacchetto, aggiornare all'ultimo framework e reinstallare. 
+Se in seguito ad aggiornamenti non installati i client dotnet riprendono a fare shock sulle ventole, provate a disinstallare il pacchetto, aggiornare all'ultimo framework e reinstallare.
+Il software è sotto MIT, potete trarne ispirazione e potete studiarlo, ma non potete diffondere il prodotto completo come vostro, sopratutto dietro pagamento.
