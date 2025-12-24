@@ -28,6 +28,8 @@ Il server è stato ispezionato dalla FIMI e non presenta particolari problemi, p
 
 [Per debian](https://youtu.be/DeC4SAB-fxQ)
 
+[Per windows](https://youtu.be/42Kz41jhDj4)
+
 [La ricompilazione per windows perché c'ho famiglia ed è natale](https://www.youtube.com/live/1-IanNniDUg?si=qDxlP9H8P5rxK_cO)
 
 ## Le eccezioni in Avalonia
