@@ -30,8 +30,6 @@ Il server è stato ispezionato dalla FIMI e non presenta particolari problemi, p
 
 [Per windows](https://youtu.be/42Kz41jhDj4)
 
-[La ricompilazione per windows perché c'ho famiglia ed è natale](https://www.youtube.com/live/1-IanNniDUg?si=qDxlP9H8P5rxK_cO)
-
 ## Le eccezioni in Avalonia
 
 Su android le eccezioni di Avalonia sono proprietarie e personalmente ho visto che loro fanno una grossa exception a la java invece di intercettarle tutte quante una per una e gestirle correttamente.
@@ -46,7 +44,7 @@ Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va i
 
 [![google](https://play.google.com/intl/it_it/badges/static/images/badges/it_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.fortune)
 
-## Per debian
+## Per debian e windows
 
 [![pling](http://numeronesoft.ddns.net:8080/images/pling.png)](https://www.pling.com/p/2296522/)
 
