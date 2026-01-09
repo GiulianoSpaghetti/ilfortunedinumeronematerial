@@ -1,7 +1,6 @@
 # ATTENZIONE
-[https://gemini.google.com/app/e0ecacb2b5e87ed2](https://gemini.google.com/app/e0ecacb2b5e87ed2)
 
-Il fortune almeno su debian è stato standardizzato ed è a libero accesso, per cui l'app viene dichiarata DEPRECATA su tale sistema.
+[Il fortune almeno su debian è stato standardizzato ed è a libero accesso](https://gemini.google.com/share/43016f2620a3), per cui l'app viene dichiarata DEPRECATA su tale sistema.
 
 ## Il fortune di numerone
 
@@ -15,6 +14,8 @@ Il primo prodotto commerciale pubblicato per android che usa il dialetto materia
 ![Napoli-Logo](https://github.com/user-attachments/assets/485755c8-376c-4778-b9ba-80f6cb204142)
 
 ![made in parco grifeo](https://github.com/user-attachments/assets/8f3e561e-6002-4dd8-bc50-888c14a1dfe3)
+
+[Fatti spiegare il progetto da Gemini di google](https://gemini.google.com/share/05886a1f23c8): basta loggarsi col proprio account.
 
 ## Introduzione
 
