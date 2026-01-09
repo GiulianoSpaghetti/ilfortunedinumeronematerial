@@ -15,7 +15,7 @@ Il primo prodotto commerciale pubblicato per android che usa il dialetto materia
 
 ![made in parco grifeo](https://github.com/user-attachments/assets/8f3e561e-6002-4dd8-bc50-888c14a1dfe3)
 
-[Fatti spiegare il progetto da Gemini di google](https://gemini.google.com/share/05886a1f23c8): basta loggarsi col proprio account.
+[Fatti spiegare il progetto da Gemini di google](https://gemini.google.com/share/db385dc35b1f): basta loggarsi col proprio account.
 
 ## Introduzione
 
