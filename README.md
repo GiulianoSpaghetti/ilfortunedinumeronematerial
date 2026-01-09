@@ -50,7 +50,7 @@ Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va i
 
 [![google](https://play.google.com/intl/it_it/badges/static/images/badges/it_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.fortune)
 
-## Per debian e windows
+## Per unix e windows
 
 [![pling](http://numeronesoft.ddns.net:8080/images/pling.png)](https://www.pling.com/p/2296522/)
 
@@ -59,10 +59,14 @@ Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va i
 ### Windows
 https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.10
 
-### Debian
+### Unix
 
 https://learn.microsoft.com/it-it/linux/packages
 
+
+## Per debian
+
+Il pacchetto è disponibile nel mio repository. Tutte le istruzioni le trovate su http://numeronesoft.ddns.net:8080, basta installare ilfortunedinumerone per amd64 e per arm64, in alternativa potete prendere la versione unix, sapendo che il binario è per amd64 ed avviarlo con dotnet /usr/game/il_fortune_di_numerone/ilfortunedinumeronematerial.Desktop.dll.
 
 ## Donazioni (la banda costa, così come l'elettricità)
 https://numerone.altervista.org/donazioni.php
