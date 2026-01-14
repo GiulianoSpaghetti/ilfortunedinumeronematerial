@@ -10,6 +10,7 @@ Il fortune teller che parla italiano
 
 Il primo prodotto commerciale pubblicato per android che usa il dialetto material.
 
+Il primo prodotto destinato al grande pubblico ad essere installato anche sui supercomputer
 
 ![Napoli-Logo](https://github.com/user-attachments/assets/485755c8-376c-4778-b9ba-80f6cb204142)
 
