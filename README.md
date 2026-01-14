@@ -63,7 +63,8 @@ https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.10
 ### Unix
 
 https://learn.microsoft.com/it-it/linux/packages
-
+Bisogna installare libice6 e libsm6 e bisogna precaricare freetype per farlo funzionare.
+E' stato dimostrato che il software è perfettamente bilanciato, perché il binario viene ottimizzato dal dotnet.
 
 ## Per debian
 
