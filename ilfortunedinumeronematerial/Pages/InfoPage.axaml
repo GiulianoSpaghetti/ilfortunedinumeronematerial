@@ -7,7 +7,7 @@
              x:Class="ilfortunedinumeronematerial.Pages.InfoPage"
 			 x:DataType="pages:HomePage">
 	<StackPanel>
-		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">ⓒ Giulio Sorrentino 2025, tutti i diritti riservati</TextBlock>
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">ⓒ Giulio Sorrentino 2025-2026, tutti i diritti riservati</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" >Version 2.0 basato on avalonia 11.3.10</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Un semplice fortune teller per Windows, Android e GNU/Linux, in lingua italiana.</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Questa app è sotto MIT</TextBlock>
