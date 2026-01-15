@@ -68,9 +68,21 @@ Bisogna installare libice6 e libsm6 e bisogna precaricare freetype per farlo fun
 
 E' stato dimostrato che il software è perfettamente bilanciato, perché il binario viene ottimizzato dal dotnet.
 
-## Per debian
+Sapendo che il binario è per amd64, è possibile avviarlo con dotnet /usr/game/il_fortune_di_numerone/ilfortunedinumeronematerial.Desktop.dll sui sistemi arm64.
 
-Il pacchetto è disponibile nel mio repository. Tutte le istruzioni le trovate su http://numeronesoft.ddns.net:8080, basta installare ilfortunedinumerone per amd64 e per arm64, in alternativa potete prendere la versione unix, sapendo che il binario è per amd64 ed avviarlo con dotnet /usr/game/il_fortune_di_numerone/ilfortunedinumeronematerial.Desktop.dll.
+## Installazione col repository (GNU/Linux)
+Per prima seguire la guida su https://learn.microsoft.com/it-it/dotnet/core/install/linux-debian
+
+Poi seguire la guida su http://numeronesoft.ddns.net:8080
+
+e poi update e install cbriscola.avalonia
+
+Prerequisites:
+
+https://learn.microsoft.com/en-us/linux/packages
+
+Note: i pacchetti sono in IL, quindi in teoria basta reinstallare il software ad ogni update del dotnet e quindi avviare una volta il programma per ottenere il binario aggiornato.
+Ovviamente se aggiornano avalonia bisogna ricompilare.
 
 ## Donazioni (la banda costa, così come l'elettricità)
 https://numerone.altervista.org/donazioni.php
