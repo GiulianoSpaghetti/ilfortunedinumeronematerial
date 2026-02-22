@@ -51,9 +51,14 @@ Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va i
 
 [![google](https://play.google.com/intl/it_it/badges/static/images/badges/it_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.fortune)
 
-## Per unix e windows
+## Per unix
 
 [![pling](http://numeronesoft.ddns.net:8080/images/pling.png)](https://www.pling.com/p/2296522/)
+
+
+## Per windows
+
+[![winget](https://user-images.githubusercontent.com/49786146/159123331-729ae9f2-4cf9-439b-8515-16a4ef991089.png)](https://marticliment.com/unigetui/share?name=IlFortunedinumerone&id=GiulioSorrentino.IlFortunedinumerone&sourceName=winget&managerName=WinGet)
 
 ## Prerequisti
 
