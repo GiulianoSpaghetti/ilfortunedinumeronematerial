@@ -84,6 +84,10 @@ https://learn.microsoft.com/en-us/linux/packages
 Note: i pacchetti sono in IL, quindi in teoria basta reinstallare il software ad ogni update del dotnet e quindi avviare una volta il programma per ottenere il binario aggiornato.
 Ovviamente se aggiornano avalonia bisogna ricompilare.
 
+
+## Bug noti
+Su android quando si chiude non crasha, ma android la chiude come app non rispondente perché manca la connessione
+
 ## Donazioni (la banda costa, così come l'elettricità)
 https://numerone.altervista.org/donazioni.php
 
