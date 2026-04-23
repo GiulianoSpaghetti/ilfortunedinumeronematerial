@@ -58,7 +58,7 @@ Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va i
 
 ## Per windows
 
-[![winget](https://user-images.githubusercontent.com/49786146/159123331-729ae9f2-4cf9-439b-8515-16a4ef991089.png)](https://marticliment.com/unigetui/share?name=IlFortunedinumerone&id=GiulioSorrentino.IlFortunedinumerone&sourceName=winget&managerName=WinGet)
+[![winget](https://user-images.githubusercontent.com/49786146/159123331-729ae9f2-4cf9-439b-8515-16a4ef991089.png)](https://marticliment.com/unigetui/share?name=IlFortunedinumerone&id=GiulioSorrentino.cbriscola.avalonia&sourceName=winget&managerName=WinGet)
 
 ## Prerequisti
 
