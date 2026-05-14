@@ -59,7 +59,7 @@ Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va i
 ## Per windows
 (da copiare in esegui)
 
-    unigetui://giuliosorrentino.ilfortunedinumerone
+    unigetui://giuliosorrentino&#46ilfortunedinumerone
 
 
 ## Prerequisti
