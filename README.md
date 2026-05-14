@@ -65,7 +65,10 @@ Il punto è che in caso di errore si blocca, ma è stato dimostrato che non va i
 ## Prerequisti
 
 ### Windows
-https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.10
+
+    unigetui://DesktopRuntime
+    
+installare il windows desktopruntime 10
 
 ### Unix
 
