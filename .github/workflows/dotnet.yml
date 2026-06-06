@@ -40,6 +40,6 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: App
-        path: ilfortunedinumeronematerial.Desktop/bin/Release/net10.0-windows10.0.26100/
+        path: ilfortunedinumeronematerial.Desktop/bin/Release/net10.0-windows10.0.26100.0
         include-hidden-files: true
         if-no-files-found: error
