@@ -2,6 +2,8 @@
 
 [Il fortune almeno su debian è stato standardizzato ed è a libero accesso](https://gemini.google.com/share/43016f2620a3), per cui l'app viene dichiarata DEPRECATA su tale sistema.
 
+[![.NET MAUI Build](https://github.com/GiulianoSpaghetti/ilfortunedinumeronematerial/actions/workflows/dotnet.yml/badge.svg)](https://github.com/GiulianoSpaghetti/ilfortunedinumeronematerial/actions/workflows/dotnet.yml)
+
 ## Il fortune di numerone
 
 Il fortune teller che parla italiano
