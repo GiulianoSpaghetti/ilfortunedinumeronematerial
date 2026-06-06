@@ -34,14 +34,13 @@
 					<ToggleButton Name="NavDrawerSwitch" Padding="4" Content="Menu" />
 					<Carousel Name="PageCarousel"
 		  HorizontalAlignment="Stretch">
-<!--						<Carousel.Styles>
+<Carousel.Styles>
 							<Style Selector="Carousel#PageCarousel:not(.no-transitions)">
 								<Setter Property="PageTransition">
-									<PageSlide Duration="1.00" Orientation="Vertical" SlideOutEasing="CircularEaseOut"
-											   SlideInEasing="CircularEaseOut" />
+									<PageSlide Duration="1.00" Orientation="Vertical" />
 								</Setter>
 							</Style>
-						</Carousel.Styles> -->
+						</Carousel.Styles>
 						<pages:HomePage />
 						<pages:InfoPage />
 					</Carousel>
