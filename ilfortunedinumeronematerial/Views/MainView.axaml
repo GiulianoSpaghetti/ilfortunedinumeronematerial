@@ -11,7 +11,8 @@
              x:Class="ilfortunedinumeronematerial.Views.MainView"
              x:DataType="vm:MainViewModel">
 	<dialogHostAvalonia:DialogHost Identifier="MainDialogHost">
-		<controls:NavigationDrawer Name="LeftDrawer" Classes="permanent"
+		<controls:SnackbarHost HostName="Root">
+			<controls:NavigationDrawer Name="LeftDrawer" Classes="permanent"
 								   LeftDrawerOpened="{Binding ElementName=NavDrawerSwitch, Path=IsChecked, Mode=TwoWay}">
 				<controls:NavigationDrawer.LeftDrawerContent>
 					<ScrollViewer>
@@ -46,5 +47,6 @@
 					</Carousel>
 				</DockPanel>
 			</controls:NavigationDrawer>
+		</controls:SnackbarHost>
 	</dialogHostAvalonia:DialogHost>
 </UserControl>

@@ -6,7 +6,7 @@
 			 xmlns:pages="clr-namespace:ilfortunedinumeronematerial.Pages"
 			 xmlns:viewModels="clr-namespace:ilfortunedinumeronematerial.ViewModels"
              x:Class="ilfortunedinumeronematerial.Pages.HomePage"
-			 x:DataType="pages:HomePage">
+			 x:DataType="viewModels:MainViewModel">
 <StackPanel>
 		<TextBox TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false" Text="{Binding Cookie}"/>
 		<Button Content="Ottieni un nuovo Biscotto" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding Click}" IsEnabled="{Binding Continua}"/>
