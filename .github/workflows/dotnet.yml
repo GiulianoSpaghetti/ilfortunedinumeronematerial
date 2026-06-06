@@ -29,7 +29,7 @@ jobs:
         dotnet-version: 10.0.x
 
     - name: Restore packages
-      run: dotnet restore ilfortunedinumerone.slnx
+      run: dotnet restore ilfortunedinumeronematerial.slnx
 
     - name: Build AValonia App
       run: |
