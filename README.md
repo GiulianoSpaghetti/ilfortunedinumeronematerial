@@ -87,7 +87,7 @@ Per prima seguire la guida su https://learn.microsoft.com/it-it/dotnet/core/inst
 
 Poi seguire la guida su http://numeronesoft.ddns.net:8080
 
-e poi update e install cbriscola.avalonia
+e poi update e install ilfortunedinumerone
 
 Prerequisites:
 
