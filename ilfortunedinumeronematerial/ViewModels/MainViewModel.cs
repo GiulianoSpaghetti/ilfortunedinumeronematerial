@@ -48,7 +48,7 @@ public class MainViewModel : ViewModelBase
         }
     }
 
-//    public ReactiveUI.ReactiveCommand<System.Reactive.Unit, System.Reactive.Unit> Click {get; }
+    public ReactiveUI.ReactiveCommand<System.Reactive.Unit, System.Reactive.Unit> Click {get; }
 
     public MainViewModel()
     {
@@ -56,7 +56,7 @@ public class MainViewModel : ViewModelBase
         {
             connect(App.Tentativi);
             GetCookie();
-//	        Click=ReactiveCommand.Create(GetCookie);
+	        Click=ReactiveCommand.Create(GetCookie);
         }
         catch (Exception ex)
         {
