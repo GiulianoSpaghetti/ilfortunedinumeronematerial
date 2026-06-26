@@ -24,7 +24,7 @@ jobs:
       uses: actions/setup-dotnet@v5
       with: 
          dotnet-version: '10.0.x'
-    - run: dotnet build ilfortunedinumeronematerial.Desktop/ilfortunedinumeronematerial.Deskop.csproj
+    - run: dotnet build ilfortunedinumeronematerial.Desktop/ilfortunedinumeronematerial.Desktop.csproj -r win-x64
     
     - uses: actions/upload-artifact@v7
       with:
