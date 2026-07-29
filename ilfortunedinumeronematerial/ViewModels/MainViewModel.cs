@@ -48,7 +48,7 @@ public class MainViewModel : ViewModelBase
         }
     }
 
-    public ReactiveUI.ReactiveCommand<System.Reactive.Unit, System.Reactive.Unit> Click {get; }
+   public ReactiveCommand<ReactiveUI.Primitives.RxVoid, ReactiveUI.Primitives.RxVoid> Click {get; }
 
     public MainViewModel()
     {
