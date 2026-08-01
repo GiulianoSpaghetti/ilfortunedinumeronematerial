@@ -20,6 +20,5 @@
     <PackageReference Include="ReactiveUI" />
     <PackageReference Include="ReactiveUI.Avalonia" />
     <PackageReference Include="Splat" />
-    <PackageReference Include="System.Reactive" />
   </ItemGroup>
 </Project>
