@@ -14,13 +14,13 @@
     <PackageVersion Include="HarfBuzzSharp" Version="14.2.1.1" />
     <PackageVersion Include="HarfBuzzSharp.NativeAssets.Linux" Version="14.2.1.1" />
     <PackageVersion Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="14.2.1.1" />
-    <PackageVersion Include="Material.Avalonia" Version="3.17.0" />
+    <PackageVersion Include="Material.Avalonia" Version="3.18.0" />
     <PackageVersion Include="MySqlConnector" Version="2.6.1" />
     <PackageVersion Include="ReactiveUI" Version="24.0.0" />
     <PackageVersion Include="ReactiveUI.Avalonia" Version="12.1.0" />
-    <PackageVersion Include="SkiaSharp" Version="4.150.1" />
-    <PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="4.150.1" />
-    <PackageVersion Include="SkiaSharp.NativeAssets.WebAssembly" Version="4.150.1" />
+    <PackageVersion Include="SkiaSharp" Version="4.151.0" />
+    <PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="4.151.0" />
+    <PackageVersion Include="SkiaSharp.NativeAssets.WebAssembly" Version="4.151.0" />
     <PackageVersion Include="Splat" Version="20.2.0" />
     <PackageVersion Include="System.Reactive" Version="7.0.0" />
   </ItemGroup>
