@@ -1,0 +1,77 @@
+Description:
+  Generatore .NET
+
+Utilizzo:
+  dotnet build [<PROJECT | SOLUTION | FILE>...] [options]
+
+Argomenti:
+  <PROJECT | SOLUTION | FILE>  Il progetto o la soluzione o il file C# 
+                               (programma basato su file) su cui eseguire 
+                               operazioni. Se non si specifica un file, il 
+                               comando cercherà un progetto o una soluzione 
+                               nella directory corrente.
+
+Opzioni:
+  --ucr, --use-current-runtime         Usa il runtime corrente come runtime di 
+                                       destinazione. [default: False]
+  -f, --framework <FRAMEWORK>          Framework di destinazione per cui 
+                                       eseguire la compilazione. Il framework 
+                                       di destinazione deve essere specificato 
+                                       anche nel file di progetto.
+  -c, --configuration <CONFIGURATION>  Configurazione da usare per compilare il 
+                                       progetto. L'impostazione predefinita per 
+                                       la maggior parte dei progetti è 'Debug'.
+  --version-suffix <VERSION_SUFFIX>    Consente di impostare il valore della 
+                                       proprietà $(VersionSuffix) da usare 
+                                       durante la compilazione del progetto.
+  --no-restore                         Non ripristina il progetto prima della 
+                                       compilazione. [default: False]
+  --interactive                        Consente al comando di arrestare 
+                                       l'esecuzione e attendere l'input o 
+                                       l'azione dell'utente, ad esempio per 
+                                       completare l'autenticazione. [default: 
+                                       False]
+  -v, -verbosity <LEVEL>               Consente di impostare il livello di 
+                                       dettaglio di MSBuild. I valori 
+                                       consentiti sono q[uiet], m[inimal], 
+                                       n[ormal], d[etailed] e diag[nostic].
+  -o, --output <OUTPUT_DIR>            Directory di output in cui inserire gli 
+                                       artefatti compilati.
+  --artifacts-path <ARTIFACTS_DIR>     Percorso degli artefatti. Tutto l'output 
+                                       del progetto, inclusi l'output di 
+                                       compilazione, pubblicazione e pacchetto, 
+                                       verrà inserito nelle sottocartelle nel 
+                                       percorso specificato.
+  --no-incremental                     Non usa la compilazione incrementale. 
+                                       [default: False]
+  --no-dependencies                    Non compila i riferimenti P2P (da 
+                                       progetto a progetto) e compila solo il 
+                                       progetto specificato. [default: False]
+  -nologo, --no-logo                   Evita la visualizzazione del messaggio 
+                                       di avvio o di copyright. [default: True]
+  --sc, --self-contained               Pubblicare il runtime .NET con 
+                                       l'applicazione in modo che non sia 
+                                       necessario installare il runtime nel 
+                                       computer di destinazione.
+                                       Il valore predefinito è 'false'. 
+                                       Tuttavia, quando la destinazione è .NET 
+                                       7 o una versione inferiore, il valore 
+                                       predefinito è 'true' se viene 
+                                       specificato un identificatore di 
+                                       runtime. [default: False]
+  --no-self-contained                  Pubblicare l'applicazione come 
+                                       applicazione dipendente dal framework. 
+                                       Per eseguire l'applicazione, è 
+                                       necessario installare un runtime .NET 
+                                       compatibile nel computer di 
+                                       destinazione. [default: False]
+  -r, --runtime <RUNTIME_IDENTIFIER>   Runtime di destinazione per cui eseguire 
+                                       la compilazione.
+  -a, --arch <ARCH>                    Architettura di destinazione.
+  --os <Sistema operativo>             Sistema operativo di destinazione.
+  --disable-build-servers              Forza il comando a ignorare tutti i 
+                                       server di compilazione persistenti. 
+                                       [default: False]
+  -?, -h, --help                       Visualizza la Guida della riga di 
+                                       comando.
+
