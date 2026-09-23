@@ -4,6 +4,8 @@ using Avalonia.Markup.Xaml;
 using ilfortunedinumeronematerial.ViewModels;
 using ilfortunedinumeronematerial.Views;
 using System.ComponentModel;
+using Optris.Icons.Avalonia;
+using Optris.Icons.Avalonia.MaterialDesign;
 
 namespace ilfortunedinumeronematerial;
 
@@ -15,6 +17,7 @@ public partial class App : Application
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);
+        IconProvider.Current.Register<MaterialDesignIconProvider>();
     }
 
     public override void OnFrameworkInitializationCompleted()

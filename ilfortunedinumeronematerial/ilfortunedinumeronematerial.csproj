@@ -17,6 +17,7 @@
     <PackageReference Include="DialogHost.Avalonia" />
     <PackageReference Include="Material.Avalonia" />
     <PackageReference Include="MySqlConnector" />
+    <PackageReference Include="Optris.Icons.Avalonia.MaterialDesign" />
     <PackageReference Include="ReactiveUI" />
     <PackageReference Include="ReactiveUI.Avalonia" />
     <PackageReference Include="Splat" />

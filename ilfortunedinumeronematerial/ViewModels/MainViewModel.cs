@@ -26,7 +26,7 @@ public class MainViewModel : ViewModelBase
     private String _status = string.Empty;
     public String Message
     {
-        get => $"Per ottenere un doppione cliccare sul pulsante \"Ottieni un nuovo Biscotto\" per {max} volte.";
+        get => $"Per ottenere un doppione cliccare sul pulsante per {max} volte.";
     }
     public string Cookie
     {
