@@ -48,15 +48,12 @@ public class MainViewModel : ViewModelBase
         }
     }
 
-   public ReactiveCommand<ReactiveUI.Primitives.RxVoid, ReactiveUI.Primitives.RxVoid> Click {get; }
-
     public MainViewModel()
     {
         try
         {
             connect(App.Tentativi);
             GetCookie();
-	        Click=ReactiveCommand.Create(GetCookie);
         }
         catch (Exception ex)
         {
