@@ -3,14 +3,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-	         xmlns:i="https://github.com/projektanker/icons.avalonia"
 			 xmlns:pages="clr-namespace:ilfortunedinumeronematerial.Pages"
 			 xmlns:viewModels="clr-namespace:ilfortunedinumeronematerial.ViewModels"
+			 xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
              x:Class="ilfortunedinumeronematerial.Pages.HomePage"
 			 x:DataType="viewModels:MainViewModel">
 <StackPanel>
 		<TextBox TextWrapping="Wrap" AcceptsReturn="true" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false" Text="{Binding Cookie}"/>
-		<Button HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding GetCookie}" IsEnabled="{Binding Continua}" i:Attached.Icon="mdi-cookie-refresh"/>
-		<TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Message}"/>
+		<Button HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding GetCookie}" IsEnabled="{Binding Continua}" Content="{materialIcons:MaterialIconTextExt Kind=CookieRefresh}"/>
+			<TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Message}"/>
 </StackPanel>
 </UserControl>

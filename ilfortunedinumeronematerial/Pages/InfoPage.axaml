@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:i="https://github.com/projektanker/icons.avalonia"
+			 xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
 			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 			 xmlns:pages="clr-namespace:ilfortunedinumeronematerial.Pages"
              x:Class="ilfortunedinumeronematerial.Pages.InfoPage"
@@ -14,7 +14,7 @@
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Questa app è sotto MIT. La rivendita è proibita.</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Le frasi sono prese dalla base di dati presente su http://numeronesoft.ddns.net:8080</TextBlock>
 		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Puoi provare a dire nel microfono 'Leggimi un cookie' oppure 'Condividi un cookie sull'internet semantico della mia dolce metà'.</TextBlock>
-		<Button Click="OnSito_Click"  i:Attached.Icon="mdi-web-box"/>
+		<Button Click="OnSito_Click"  Content="{materialIcons:MaterialIconExt Kind=Web}"/>
 	</StackPanel>
 </UserControl>
 	
